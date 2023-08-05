@@ -1,6 +1,7 @@
 provider "aws" {
   region  = "us-east-1"
 }
+# We are going to have to make this more structured so its easy to find
 
 variable "subnet_cidr_block" {
   description = "subnet cidr block"
